@@ -1,0 +1,5 @@
+# Build directory
+build/
+
+# The actual pdf file
+/Guide.pdf
