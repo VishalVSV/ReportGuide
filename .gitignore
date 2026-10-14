@@ -1,5 +1,11 @@
 # Build directory
 build/
 
+*.aux
+*.log
+*.toc
+*.synctex.gz
+*.out
+
 # The actual pdf file
 /Guide.pdf
