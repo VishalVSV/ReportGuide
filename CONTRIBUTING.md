@@ -8,7 +8,7 @@ The second way is a bit more involved but a lot more fun. This is for larger cha
 
 # Important, regarding the use of LLMs and Generative AI
 
-While there are many valid uses of LLMs and Generative AI, I personally as one of the author's of this document don't think this document is one of them. This project was put on the internet not to be a solution to people but to encourage people to learn how to use git and get used to contributing while sharing their experiences with scientific writing. This document *is not an official or professional* guide. It is written by students and is not guaranteed to improve your reports.
+While there are many valid uses of LLMs and Generative AI, I personally as one of the authors of this document don't think this document is one of them. This project was put on the internet not to be a solution to people but to encourage people to learn how to use git and get used to contributing while sharing their experiences with scientific writing. This document *is not an official or professional* guide. It is written by students and is not guaranteed to improve your reports.
 
 The point of this project is not to produce results. It doesn't matter if there is a faster or better way to do this. The point is to learn something while doing it. We still learn arithmetic even though we have access to calculators. There is meaning to learning and doing things by hand. Not everything needs to be done "efficiently".
 
