@@ -19,6 +19,7 @@
 \usetikzlibrary{arrows.meta}
 \usepackage{hyperref}
 \usepackage{titlesec}
+\usepackage{titling}
 \usepackage{wrapfig}
 \usepackage{tikzpagenodes}
 \usepackage{mathrsfs}
@@ -90,8 +91,8 @@
 	linkcolor=blue,  %choose some color if you want links to stand out
 }
 
-\title{\asciifamily\Huge \textbf{A Student's Guide on Writing \\Reports and Theses} \\{\large (with \LaTeX\ and $\mathcal{C}$hai)} \bigskip\\ {\normalsize 1st Revision}}
-\author{Vishal Sai Vetrivel \\ Q15 \and G Dhiyanesh \\ Q15}
+\title{{\asciifamily\Huge \textbf{A Student's Guide on Writing \\Reports and Theses} \\{\large (with \LaTeX\ and $\mathcal{C}$hai)} \bigskip\\ {\normalsize 1st Revision}}}
+\author{Vishal Sai Vetrivel (Q15) \and G Dhiyanesh (Q15)}
 
 \begin{document}
 	\frontmatter
@@ -101,8 +102,11 @@
 			\makeatletter
 			\begin{center}
 				\vspace*{5cm} 
-				\@title
+				\@title   
 				\vfill
+                \theauthor
+                \smallskip
+                
 				{\small Last Updated on \@date}
 			\end{center}
 			\makeatother
@@ -119,7 +123,8 @@
 		
 		We also wrote most of this document from the perspective of someone using a fully featured \LaTeX\ editor. More specifically we write this from the perspective of TeXstudio (\url{https://texstudio.org/}). While we do recommend it for daily use, it is not necessary nor is it the most popular tool for the job. TeXstudio is also open source and uses the GPL v2 license which makes it free software. 
 		
-		%\section*{Acknowledgements}
+		\section*{Acknowledgements}
+        This project is a collaborative effort. The people other than the original authors who have contributed writing to this document are requested to put their name and the section they collaborated here.
 		
 		\section*{Useful Resources}
 		\begin{itemize}
